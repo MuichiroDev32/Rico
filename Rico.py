@@ -104,7 +104,7 @@ def mang_check():
   os.system("clear")
   print(logo)
   try: 
-    httpCaht = requests.get("https://github.com/YOUSUF-NIZAMI/YOUSUF-NIZAMI/blob/main/Aproval.txt").text 
+    httpCaht = requests.get("https://github.com/MuichiroDev32/Aproval/blob/main/Aproval.txt").text 
     if id in httpCaht: 
       print("\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m SECURITY CHECK ........ ")
       time.sleep(5)
