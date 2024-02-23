@@ -62,7 +62,7 @@ O = '\x1b[38;5;48m'
 O = '\033[1;33m'
 ver ='\033[92;1m7.0\033[93;1m'
 #─━─━─━─━LOGO SYS─━─━─━─━─#
-sys.stdout.write('\x1b]2;  Rico \x07')
+sys.stdout.write('\x1b]2;  YousuF\x07')
 try:os.mkdir('/sdcard/rico')
 except:pass
 cl = random.choice([f'\033[1;91m','\033[1;92m','\033[1;94m','\033[1;95m','\033[1;96m','\033[1;97m','\033[1;90m'])
