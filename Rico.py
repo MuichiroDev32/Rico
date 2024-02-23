@@ -63,7 +63,7 @@ O = '\033[1;33m'
 ver ='\033[92;1m7.0\033[93;1m'
 #─━─━─━─━LOGO SYS─━─━─━─━─#
 sys.stdout.write('\x1b]2;  YousuF\x07')
-try:os.mkdir('/sdcard/rico')
+try:os.mkdir('/sdcard/YousuF')
 except:pass
 cl = random.choice([f'\033[1;91m','\033[1;92m','\033[1;94m','\033[1;95m','\033[1;96m','\033[1;97m','\033[1;90m'])
 logo = (f"""\033[92;1m 
@@ -143,7 +143,7 @@ def result(OKs,cps):
         input("\x1b[1;92m[•]\033[1;37m ━ \x1b[1;92mPRESS ENTER TO BACK  ")
         exit()
 #─━─━─━─━Main menu─━─━─━─━─#
-def Rico():
+def YousuF():
             os.system('clear')
             print(logo)
             print(f'\033[92;1m[\033[1;37mA\033[92;1m] \033[1;37mFILE CRACK ')
