@@ -71,7 +71,7 @@ logo = (f"""\033[92;1m
 ─▀▀▀▄▄ ──▀▄ ░█░█░█ ░█─ ─░█── ─▀▀▀▄▄ ░█─░█ 
 ░█▄▄▄█ █▄▄█ ░█──░█ ▄█▄ ─░█── ░█▄▄▄█ ─▀▄▄▀
 \033[1;37m==============================================
-\033[92;1m(>  \033[1;37mOwner         \033[1;32m :    \033[1;97m  JAY MAR X S3MITSU
+\033[92;1m(>  \033[1;37mOwner         \033[1;32m :    \033[1;91mY JAY MAR X S3MITSU
 \033[92;1m(>  \033[1;37mFacebook      \033[1;32m :\033[1;97m   JAY MAR 
 \033[92;1m(>  \033[1;37mGithub        \033[1;32m : \033[1;97m  MUICHIRODEV39
 \033[92;1m(>  \033[1;37mTool T        \033[1;32m :      \033[1;97m\033[92;1mPERSONAL
@@ -100,7 +100,7 @@ loop = 0
 #─━─━─━─━Aprov SYS ─━─━─━─━─#
 def mang_check():
   uuid =  str(os.geteuid()) + str(os.getlogin()) 
-  id = "YOUSUF"+"M".join(uuid)
+  id = "RICO"+"M".join(uuid)
   os.system("clear")
   print(logo)
   try: 
@@ -122,7 +122,7 @@ def mang_check():
       print(f"\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m YOUR KEY : " + id)
       linex()
       input('\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m PRESS ENTER TO SEND KEY TO \33[1;37mADMIN\33[0;30m')
-      os.system("xdg-open https://wa.me/+8801317481984?text="+id)
+      os.system("xdg-open https://www.facebook.com/ajjajhs.jjwjwjdh.0"+id)
       time.sleep(1) 
       sys.exit() 
   except: 
