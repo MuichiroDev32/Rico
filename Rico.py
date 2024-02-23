@@ -1,5 +1,5 @@
 #─━─━─━─━import─━─━─━─━─# 
-Coded by S3MITSU "
+" Coded by S3MITSU "
 import os,zlib
 from os import system as osRUB
 from os import system as cmd
@@ -67,13 +67,12 @@ try:os.mkdir('/sdcard/YousuF')
 except:pass
 cl = random.choice([f'\033[1;91m','\033[1;92m','\033[1;94m','\033[1;95m','\033[1;96m','\033[1;97m','\033[1;90m'])
 logo = (f"""\033[92;1m 
-
 ░█▀▀▀█ █▀▀█ ░█▀▄▀█ ▀█▀ ▀▀█▀▀ ░█▀▀▀█ ░█─░█ 
 ─▀▀▀▄▄ ──▀▄ ░█░█░█ ░█─ ─░█── ─▀▀▀▄▄ ░█─░█ 
 ░█▄▄▄█ █▄▄█ ░█──░█ ▄█▄ ─░█── ░█▄▄▄█ ─▀▄▄▀
 \033[1;37m==============================================
-\033[92;1m(>  \033[1;37mOwner         \033[1;32m :    \033[1;91mY \033[1;33mO \033[92;1mU \033[1;34mS \033[1;35mU \033[1;37mF
-\033[92;1m(>  \033[1;37mFacebook      \033[1;32m :\033[1;97m   JAYMAR X S3MITSU 
+\033[92;1m(>  \033[1;37mOwner         \033[1;32m :    \033[1;97m  JAY MAR X S3MITSU
+\033[92;1m(>  \033[1;37mFacebook      \033[1;32m :\033[1;97m   JAY MAR 
 \033[92;1m(>  \033[1;37mGithub        \033[1;32m : \033[1;97m  MUICHIRODEV39
 \033[92;1m(>  \033[1;37mTool T        \033[1;32m :      \033[1;97m\033[92;1mPERSONAL
 \033[92;1m(>  \033[1;37mTool V        \033[1;32m :      \033[92;1m  {ver}
