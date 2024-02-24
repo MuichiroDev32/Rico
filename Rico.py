@@ -112,7 +112,7 @@ def mang_check():
       print("\x1b[1;92m[•]\033[1;37m ━\033[1;37m CONGRATULATIONS YOUR KEY IS APPROVED")
       time.sleep(2)
       clear()
-      print("\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m WELCOME TO OUR REX-Y TOOLS \033[1;37m ENJOY ")
+      print("\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m WELCOME TO OUR S3MITSU TOOLS \033[1;37m ENJOY ")
       msg = str(os.geteuid()) 
       time.sleep(1) 
       pass 
@@ -151,7 +151,6 @@ def YousuF():
             print(f'\033[92;1m[\033[1;37mC\033[92;1m] \033[1;37mRANDOM CRACK ')
             print(f'\033[92;1m[\033[1;37mD\033[92;1m] \033[1;37mGMAIL CRACK ')
             print(f'\033[92;1m[\033[1;37mE\033[92;1m] \033[1;37mFILE CLONE PASS MENU')
-            print(f'\033[92;1m[\033[1;37mF\033[92;1m] \033[1;37mTOOLS USE TUTORIAL MENU')
             print(f'\033[92;1m[\033[1;37mG\033[92;1m] \033[1;37mADMIN CONTACT')
             print(f'\033[92;1m[\033[1;37mH\033[92;1m] \033[1;37mEXIT TOOLS')
             linex()
@@ -161,9 +160,8 @@ def YousuF():
             if xd in ['C','3']:print('coming soon');exit()
             if xd in ['D','4']:print('coming soon');exit()
             if xd in ['E','5']:print('coming soon');exit()
-            if xd in ['F','6']:tutorial()
-            if xd in ['G','7']:admin()
-            if xd in ['H','8']:exit()
+            if xd in ['F','7']:admin()
+            if xd in ['G','8']:exit()
             
 #─━──━─━FILE METHOD SYS─━──━─━─#                                                      
 def method_crack():
@@ -470,33 +468,7 @@ def admin():
 			if YM in ['E','5']:YousuF()
 			else:
 				time.sleep(3)
-				admin()				
-#─━─━─━─━Tutorial sys─━─━─━─━─#
-def tutorial():
-			clear()
-			print("\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37mTUTORIAL ")
-			linex()
-			print(f'\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37m(A)\033[92;1m━─ \033[1;37mFollow Tools Owner Fb Profile ')
-			print(f'\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37m(B)\033[92;1m━─ \033[1;37mFollow tutorial Update Fb pege')
-			print(f'\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37m(C)\033[92;1m━─ \033[1;37mHow to download Best V. Termux & setup ')
-			print(f'\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37m(D)\033[92;1m━─ \033[1;37mHow to Run File cloning Tools ')
-			print(f'\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37m(E)\033[92;1m━─ \033[1;37mHow to create File & Cookie Make ')
-			print(f'\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37m(F)\033[92;1m━─ \033[1;37mHow to run any File cloning tools ')
-			print(f'\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37m(G)\033[92;1m━─ \033[1;37mHow to use cloning tools 1-4 Part Links')
-			print(f'\x1b[1;92m[•]\033[1;37m\x1b[1;92m\033[92;1m─━\033[1;37m(H)\033[92;1m━─ \033[1;37mB\033[92;1m-\033[1;37mAC\033[92;1m-\x1b[1;92mK')
-			linex()
-			YM=input(f'\033[92;1m[<+>]\033[1;37m SELECT OPTION   :\033[92;1m ')
-			if YM in ['A','1']:os.system("xdg-open https://www.facebook.com/CEO.Of.DreamBuilders.TEAM ")				
-			if YM in ['B','2']:os.system("xdg-open https://www.facebook.com/profile.php?id=61552108512007 ")				
-			if YM in ['C','3']:os.system("xdg-open https://www.facebook.com/61552108512007/posts/pfbid02YptXiARak3SuW7xLhXoSRWYNkUENPgiAadBi3Nwttad3tqSFQftEEuZ6UY2TYhNdl/?app=fbl")				
-			if YM in ['D','4']:os.system("xdg-open https://www.facebook.com/61552108512007/posts/pfbid0hTqUfnermRHNXtPCQ7o47DAQHLd5KbCtceXS7Eyic5zxWAHoNepX3SCrRbDn1wKpl/?app=fbl ")				
-			if YM in ['E','5']:os.system("xdg-open https://www.facebook.com/61552108512007/posts/pfbid01UsNCLcRmc2P9nbCyQMAtjkVddLBBAwsVsHzXKjCELR3po6RvqS9Nsph2jyvZo3Gl/?app=fbl")				
-			if YM in ['F','6']:os.system("xdg-open https://www.facebook.com/61552108512007/posts/pfbid0nirrqqdPhhgfNooEFbwqp1VvP6gyX5q1iP61LRPDNfyiZQAPUD2vh9A1b2kaJynbl/?app=fbl")				
-			if YM in ['G','7']:os.system("xdg-open https://www.facebook.com/61552108512007/posts/pfbid0dMDJgCCQ7oNDMejqawbbQ3rhcnyn1Gs9fjwGhGmhUEfFydL51dWjpcxQssV1R67Ql/ ")				
-			if YM in ['H','8']:YousuF()         
-			else:
-				time.sleep(3)
-				tutorial()				
+				admin()							
 #─━─━─━─━random sys─━─━─━─━─#
 def randm():
 			clear()
